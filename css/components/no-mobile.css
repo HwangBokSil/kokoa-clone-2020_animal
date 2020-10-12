@@ -1,0 +1,28 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background: url(https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fn5ZH4%2FbtqDCYKXhdu%2F0dUdefKu5x1JnwFoMSH3M0%2Fimg.jpg);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 32px;
+  top: 0;
+  color: var(--leafgreen);
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+#no-mobile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
